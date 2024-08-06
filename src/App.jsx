@@ -1,12 +1,11 @@
 import './App.css';
-import Chicken from './Chicken.jsx';
+import ListPicker from './ListPicker.jsx';
 
 function App() {
   return (
     <div>
-      <Chicken></Chicken>
-      <Chicken></Chicken>
-      <Chicken></Chicken>
+      <ListPicker values={[1, 2, 3]}></ListPicker>
+      <ListPicker values={['a', 'b', 'c']}></ListPicker>
     </div>
   );
 }
